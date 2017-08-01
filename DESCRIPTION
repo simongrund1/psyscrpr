@@ -1,0 +1,14 @@
+Package: psyscrpr
+Type: Package
+Title: Tools for scraping text from PDFs of psychological articles
+Version: 0.1-0.0
+Date: 2017-07-27
+Author:  Simon Grund [aut,cre],
+Maintainer: Simon Grund <grund@ipn.uni-kiel.de>
+BugReports: https://github.com/simongrund1/psyscrpr/issues
+Imports: xml2
+LazyData: true
+LazyLoad: true
+Description: Provides tools for scraping and searching text from PDFs of
+    psychological in publisher-specific layouts.
+License: GPL (>=2)

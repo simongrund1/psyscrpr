@@ -1,0 +1,11 @@
+import(xml2)
+
+export(scanFiles,
+       findPattern,
+       cleanText,
+       readAPA
+      )
+
+S3method(print,scrpr.frame)
+S3method(update,scrpr.frame)
+
