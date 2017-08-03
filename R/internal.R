@@ -54,7 +54,6 @@
 # helper function for error catching
 
   xml <- xml2::read_xml(file, options = c("RECOVER","NOBLANKS"))
-
   return(xml2::as_list(xml))
 
 }
