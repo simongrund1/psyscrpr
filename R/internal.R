@@ -19,7 +19,8 @@
   if(inherits(x,"error")){
 
     err <- as.character(x)
-    if(grepl("PCDATA invalid Char",err)){
+    inv.char <- grepl("PCDATA invalid Char|invalid character in attribute",err)
+    if(inv.char){
     # ... xml-invalid chars
       xml <- readLines(f, encoding="UTF-8", skipNul=TRUE)
       xml <- gsub("[^\x20-\x7E]","",iconv(xml)) # printable only
