@@ -1,5 +1,5 @@
-# mitml
-#### Tools for multiple imputation in multilevel modeling
+# psyscrpr
+#### Tools for scraping text from publisher PDFs of psychological articles
 
 This [R](https://www.r-project.org/) package provides tools for scraping and analyzing text from publisher PDFs of psychological articles.
 
