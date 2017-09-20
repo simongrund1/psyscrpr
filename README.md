@@ -9,7 +9,7 @@ The development version can be downloaded and installed as follows.
 
 ```r
 install.packages("devtools")
-devtools::install_github("simongrund1/mitml")
+devtools::install_github("simongrund1/psyscrpr")
 ```
 
 This package is currently not hosted on CRAN.
