@@ -5,7 +5,7 @@
 # read PDF via XML to list / data.frames
 
   # convert to XML
-  system2( "pdftohtml", paste0("-c -s -i -xml ",file),
+  system2( "pdftohtml", paste0("-c -s -i -xml '",file,"'"),
            stdout=NULL, stderr=NULL )
 
   # error log
